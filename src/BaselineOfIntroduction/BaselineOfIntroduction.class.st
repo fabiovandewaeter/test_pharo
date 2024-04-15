@@ -7,6 +7,6 @@ Class {
 { #category : #baselines }
 BaselineOfIntroduction >> baseline: spec [
 	spec for: #common do: [ 
-		spec package: 'Introduction'.
-		spec package: 'Introduction-Tests'. ]
+		spec package: 'test'.
+		spec package: 'test-Tests'. ]
 ]
