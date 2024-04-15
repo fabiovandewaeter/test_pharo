@@ -19,6 +19,17 @@ CounterTest >> testFailing [
 ]
 
 { #category : #tests }
+CounterTest >> testFailing2 [
+	| myCounter |
+	myCounter := Counter new.
+	myCounter count: 10.
+	
+	myCounter increment.
+	
+	self assert: myCounter count equals: 10.
+]
+
+{ #category : #tests }
 CounterTest >> testPassing [
 	| myCounter |
 	myCounter := Counter new.
