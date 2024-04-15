@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'count'
 	],
-	#category : #test
+	#category : #'test-Tests'
 }
 
 { #category : #tests }
