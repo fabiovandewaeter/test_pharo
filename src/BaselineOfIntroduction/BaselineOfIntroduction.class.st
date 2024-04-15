@@ -3,3 +3,10 @@ Class {
 	#superclass : #BaselineOf,
 	#category : #BaselineOfIntroduction
 }
+
+{ #category : #baselines }
+BaselineOfIntroduction >> baseline: spec [
+	spec for: #common do: [ 
+		spec package: 'Introduction'.
+		spec package: 'Introduction-Tests'. ]
+]
